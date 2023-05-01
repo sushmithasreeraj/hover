@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+.main_container{
+   
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.sub_container{
+
+	width:90%;
+	margin:50px auto;
+	overflow:hidden;
+}
+.hover_section{
+	display:flex;
+	justify-content:space-between;
+	overflow:hidden;
+	width:100%;
+	
+}
+
+.btn_section{
+	
+	display:flex;
+	justify-content:flex-end;
+	gap:5px;
+	overflow:hidden;
+}
+	
+.btn_section a{
+	text-decoration:none;
+	color:black;
+	border:2px solid #E1E2E4;
+	border-radius:5px;
+	background-color:#FFFFFF;
+    text-align:center;
+	width:100px;
+    height:35px;
+	font-weight:bold;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+
+	
+}
+
+.btn_section span{
+	color:#BBBBBB;
+	display:flex;
+	align-items:flex-end;
+}
+.dropdown_section{
+	border:2px solid #E1E2E4;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	width:197px;
+	height:230px;
+	margin:10px auto;
+	overflow:hidden;
+	display:none;
+	position:absolute;
+	z-index:1;
+}
+.btn_section:hover .dropdown_section {
+	display:block;
+
+}
+
+.dropdown_section a{
+	text-decoration:none;
+	color:black;
+	display:flex;
+	padding:10px;
+}
+.drop1{
+	border-bottom:2px solid #F7F7F7;
+}
+.drop2{
+	border-top:2px solid #F7F7F7;
+}
